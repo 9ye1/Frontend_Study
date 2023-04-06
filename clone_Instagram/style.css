@@ -1,0 +1,108 @@
+
+#btn{
+  display: inline-block;
+
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 10px 0px;
+
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: border;
+
+  background-color: rgb(118, 187, 240);
+  border-radius: 5px;
+  border:none;
+}
+.down{
+  display: flex;
+  justify-content: center;
+}
+.down_img{
+  height: 40px;
+  padding: 3px;
+}
+.mid{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.info{
+  width: 100%;
+  height: 20px;
+  padding: 8px 0px;
+  margin: 2px 0px;
+
+  
+  border-radius: 3px;
+  border: solid rgb(202, 202, 202) 1px;
+  background-color: rgb(243, 243, 243);
+}
+#logo{
+  width:60%;
+  margin: auto;
+}
+#check{
+  margin-left: 5%;
+  margin-right: 7px;
+}
+#checkbox{
+  display: flex;
+  flex-direction:row;
+  
+}
+#or{
+  display: flex;
+  
+}
+#first{
+  margin-top: 5%;
+  border: 1px rgb(224, 224, 224) solid;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+}
+#second{
+  text-align: center;
+  margin-top: 10px;
+  border: 1px rgb(224, 224, 224) solid;
+  
+}
+span{
+  font-weight: border;
+}
+#facebook{
+  display: flex;
+  justify-content: center;
+}
+.text-mid{
+  text-align: center;
+}
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  height: 100vh;
+  width: 100vw;
+
+}
+#main_image{
+
+  width: 350px;
+  margin-left: 10px;
+}
+#face_img{
+  width: 30px;
+}
+#face_text{
+  color: rgb(23, 23, 193);
+  font-weight: bolder;
+}
+.line{
+  width:30%;
+  height: 1px;
+}

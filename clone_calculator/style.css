@@ -1,0 +1,57 @@
+#main{
+    background-color: black;
+    height: 600px;
+    width: 300px;
+    margin: 30px;
+
+}
+#empty{
+    height:14%;
+    width: 100%;
+}
+#io{
+    height:15%;
+    width: 100%;
+    
+    color: white;
+    text-align: right;
+    vertical-align: bottom;
+    font-size: 70px;
+}
+#buttons{
+    height:70%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
+    place-items: center;
+
+}
+button{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+}
+.gray{
+    background-color: rgb(165, 165, 165);
+}
+.dark_gray{
+    background-color: rgb(80, 80, 80);
+    color: rgb(239, 239, 239);
+}
+.yellow{
+    background-color: rgb(246, 156, 39);
+    color: white;
+}
+#zero{
+    grid-column: 1/3;
+    width: 90%;
+    border-radius: 50% / 90%;
+    text-align: left;
+    padding-left: 15%;
+}
